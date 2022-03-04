@@ -1,0 +1,28 @@
+
+
+.layout__content_cont {
+    text-align: left;
+    float: left;
+    width: 45%;
+}
+
+.layout__map_cont {
+    float: right;
+    width: 55%;
+}
+
+@media screen and (max-width: 800px) {
+
+    layout{
+
+    }
+
+    .layout__content_cont {
+        width:100%
+    }
+    
+    .layout__map_cont {
+        width:100%;
+
+    }
+}

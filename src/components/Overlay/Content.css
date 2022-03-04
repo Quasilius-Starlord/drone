@@ -1,0 +1,13 @@
+.Content{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(215, 215, 230);
+    top: 0;
+    color: rgb(11, 25, 37);
+    /* transition: all 1s; */
+    position: relative;
+    z-index: 2;
+    justify-content:center;
+    flex-direction: column;
+    display: flex 
+};
