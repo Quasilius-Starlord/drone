@@ -9,6 +9,7 @@ export default function DroneTable(props) {
     const [nameFilter, setNameFilter] = useState("");
     const [brandFilter, setBrandFilter] = useState("");
     const [currentPage, setCurrentPage] = useState(0);
+    const [ deleteCount, setDeleteCount ] = useState(0);
 
     const startOffset=currentPage*props.itemsPerPage;
     const endOffset=startOffset+props.itemsPerPage;
@@ -18,6 +19,7 @@ export default function DroneTable(props) {
     let deletevalue = (index) => {
         console.log('at index', index)
         props.drones.current.splice(index, 1);
+        setDeleteCount(deleteCount+1);
     };
 
     let rowOfItems=null;

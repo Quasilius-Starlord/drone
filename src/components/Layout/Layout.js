@@ -298,7 +298,7 @@ export default function Layout() {
 
     let uploadFile = () => {
         console.log(droneJsonData.current, 'uploaded')
-        setProgressBarVisibility();
+        ProgressBarVisibilityMonitor();
         let data = new FormData();
         data.append('file', JSON.stringify(droneJsonData.current));
         changeUploadedPercent(0);
@@ -312,6 +312,8 @@ export default function Layout() {
 
         axios.post(`${URL}/dronedata/`, data, options).then(res => {
             console.log(res);
+        }).catch(err=>{
+            console.log(err)
         })
         return;
     }
