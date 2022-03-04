@@ -18,7 +18,6 @@ export default function DroneTable(props) {
     let deletevalue = (index) => {
         console.log('at index', index)
         props.drones.current.splice(index, 1);
-        props.setElementDeleted(props.elementDeleted + 1);
     };
 
     let rowOfItems=null;
