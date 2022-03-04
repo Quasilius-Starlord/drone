@@ -7,7 +7,6 @@ import Map from '../Map/Map';
 import MapService, { MAPBOX_ACCESS_TOKEN } from '../Map/MapService';
 import Overlay from "../Overlay/Overlay";
 import UploadOverlay from "../UploadOverlay/UploadOverlay";
-import './Layout.css';
 import { URL } from './../../assets/backend/server'
 
 export default function Layout() {
@@ -357,7 +356,7 @@ export default function Layout() {
                 visibility={progressBarVisibility}
                 setProgressBarVisibility={ProgressBarVisibilityMonitor}
                 uploadedPercent={uploadedPercent} />
-            <div className='layout__content_cont'>
+            <div className='layout__content_cont' style={{width:'45%'}}>
                 <div style={{ padding: '1em', display: 'flex', justifyContent: 'space-evenly' }}>
                     <Button variant="success" onClick={(e) => overlayMonitor(e)}>
                         Add JSON File

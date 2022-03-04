@@ -1,6 +1,3 @@
-import './Overlay.css';
-import './Hide.css';
-import './Content.css';
 import Auxil from './../Auxil/Auxil.js'
 import { useState, useRef } from 'react';
 import axios from 'axios'
