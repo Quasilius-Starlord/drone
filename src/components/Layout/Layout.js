@@ -378,7 +378,7 @@ export default function Layout() {
                     </Button>
                 </div>
                 <p style={{fontFamily:['Cinzel', 'serif'], textAlign:'center', marginTop:'10px'}}>
-                    download sample data <a href="./../../assets/data/largetestdataforupload.json" download>here</a>
+                    download sample data <a href="/largetestdataforupload.json" download>here</a>
                 </p>
             </div>
 

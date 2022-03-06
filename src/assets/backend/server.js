@@ -1,1 +1,1 @@
-export let URL='http://localhost:8000'
+export let URL='https://django-drone.herokuapp.com'
