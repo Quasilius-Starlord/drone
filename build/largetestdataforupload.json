@@ -1,0 +1,1249 @@
+[
+    {
+        "drone_name": "Ritvik",
+        "reg_id": 1,
+        "location": {
+            "latitude": 26.027207835264562,
+            "longitude": 85.05834646542837
+        },
+        "last_seen": "2021-02-20 01:11:37",
+        "first_launch": "2021-02-02 13:43:52",
+        "total_flight_time_min": 128,
+        "drone_type": {
+            "id": 37,
+            "model_name": "Mini pro",
+            "brand": "DJI",
+            "model_year": "2016",
+            "endurance_min": "24",
+            "sl_no": "082-23-8151",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 3637,
+            "name": "Rania Tak",
+            "address": "702\nCheema Street\nBerhampore-250764",
+            "phone": "07435013056",
+            "experience": 1,
+            "skill": 3,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Aarush",
+        "reg_id": 2,
+        "location": {
+            "latitude": 20.50261768211302,
+            "longitude": 79.56760337007684
+        },
+        "last_seen": "2021-03-23 18:13:02",
+        "first_launch": "2019-04-03 01:35:42",
+        "total_flight_time_min": 302,
+        "drone_type": {
+            "id": 6,
+            "model_name": "DJI Mavic v3",
+            "brand": "DJI",
+            "model_year": "2018",
+            "endurance_min": "23",
+            "sl_no": "282-62-3373",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 8382,
+            "name": "Arnav Sura",
+            "address": "84/303, Jhaveri Zila, Panvel 306201",
+            "phone": "09246416699",
+            "experience": 2,
+            "skill": 1,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Tiya",
+        "reg_id": 3,
+        "location": {
+            "latitude": 23.89430689372223,
+            "longitude": 75.4822003284608
+        },
+        "last_seen": "2021-03-18 02:42:27",
+        "first_launch": "2020-03-13 16:40:37",
+        "total_flight_time_min": 929,
+        "drone_type": {
+            "id": 41,
+            "model_name": "Swinf pro 2",
+            "brand": "Parrot",
+            "model_year": "2020",
+            "endurance_min": "120",
+            "sl_no": "784-19-1278",
+            "type": "vtol"
+        },
+        "pilot": {
+            "id": 3631,
+            "name": "Shalv Wagle",
+            "address": "H.No. 87, Setty Ganj, Morena-429574",
+            "phone": "08396022723",
+            "experience": 1,
+            "skill": 1,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Drishya",
+        "reg_id": 4,
+        "location": {
+            "latitude": 21.62317233330305,
+            "longitude": 77.17200839547803
+        },
+        "last_seen": "2021-06-28 19:21:46",
+        "first_launch": "2019-08-25 06:29:43",
+        "total_flight_time_min": 163,
+        "drone_type": {
+            "id": 9,
+            "model_name": "DJI Phantom",
+            "brand": "DJI",
+            "model_year": "2020",
+            "endurance_min": "23",
+            "sl_no": "935-55-4918",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 7513,
+            "name": "Kismat Kibe",
+            "address": "677\nAurora Chowk, Bijapur-582281",
+            "phone": "7355047528",
+            "experience": 2,
+            "skill": 5,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Urvi",
+        "reg_id": 5,
+        "location": {
+            "latitude": 16.716535536139276,
+            "longitude": 81.41942167640791
+        },
+        "last_seen": "2021-04-11 14:31:20",
+        "first_launch": "2021-05-11 04:28:46",
+        "total_flight_time_min": 599,
+        "drone_type": {
+            "id": 26,
+            "model_name": "Anaconda",
+            "brand": "RMRC",
+            "model_year": "2012",
+            "endurance_min": "120",
+            "sl_no": "372-21-5803",
+            "type": "fixed_wing"
+        },
+        "pilot": {
+            "id": 2780,
+            "name": "Fateh Taneja",
+            "address": "63\nMaster Marg, Sambhal-748966",
+            "phone": "1682303931",
+            "experience": 2,
+            "skill": 3,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Fateh",
+        "reg_id": 6,
+        "location": {
+            "latitude": 23.279140451156152,
+            "longitude": 74.6538249049942
+        },
+        "last_seen": "2021-07-23 17:19:06",
+        "first_launch": "2021-04-30 20:24:07",
+        "total_flight_time_min": 276,
+        "drone_type": {
+            "id": 27,
+            "model_name": "Anaconda v2",
+            "brand": "RMRC",
+            "model_year": "2013",
+            "endurance_min": "150",
+            "sl_no": "575-32-9168",
+            "type": "fixed_wing"
+        },
+        "pilot": {
+            "id": 1311,
+            "name": "Manikya Atwal",
+            "address": "47\nKohli Marg\nHajipur 811328",
+            "phone": "6911714068",
+            "experience": 3,
+            "skill": 2,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Nishith",
+        "reg_id": 7,
+        "location": {
+            "latitude": 26.069584602576576,
+            "longitude": 77.55016833507528
+        },
+        "last_seen": "2021-08-27 21:09:45",
+        "first_launch": "2018-07-07 00:35:54",
+        "total_flight_time_min": 775,
+        "drone_type": {
+            "id": 23,
+            "model_name": "Talon v4",
+            "brand": "X-UAV",
+            "model_year": "2018",
+            "endurance_min": "32",
+            "sl_no": "543-76-7761",
+            "type": "fixed_wing"
+        },
+        "pilot": {
+            "id": 4512,
+            "name": "Anvi Sinha",
+            "address": "H.No. 96\nJain Ganj, Hapur-027292",
+            "phone": "7308158224",
+            "experience": 1,
+            "skill": 1,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Raunak",
+        "reg_id": 8,
+        "location": {
+            "latitude": 23.816962049757436,
+            "longitude": 83.48164288218572
+        },
+        "last_seen": "2021-07-29 00:35:12",
+        "first_launch": "2020-04-06 08:03:05",
+        "total_flight_time_min": 468,
+        "drone_type": {
+            "id": 13,
+            "model_name": "DJI Phantom v4",
+            "brand": "DJI",
+            "model_year": "2019",
+            "endurance_min": "43",
+            "sl_no": "721-27-2336",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 8911,
+            "name": "Kismat Buch",
+            "address": "42/05, Subramanian Circle, Bhagalpur-298270",
+            "phone": "04857609656",
+            "experience": 4,
+            "skill": 4,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Madhup",
+        "reg_id": 9,
+        "location": {
+            "latitude": 17.586743841462322,
+            "longitude": 80.71235647107518
+        },
+        "last_seen": "2021-09-18 12:08:19",
+        "first_launch": "2020-06-10 19:17:24",
+        "total_flight_time_min": 838,
+        "drone_type": {
+            "id": 41,
+            "model_name": "Swinf pro 2",
+            "brand": "Parrot",
+            "model_year": "2020",
+            "endurance_min": "120",
+            "sl_no": "784-19-1278",
+            "type": "vtol"
+        },
+        "pilot": {
+            "id": 7659,
+            "name": "Vaibhav Desai",
+            "address": "H.No. 301, Goda, Ulhasnagar-934350",
+            "phone": "+916206972111",
+            "experience": 3,
+            "skill": 2,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Uthkarsh",
+        "reg_id": 10,
+        "location": {
+            "latitude": 22.336126178324356,
+            "longitude": 84.31689941588454
+        },
+        "last_seen": "2021-10-28 21:23:39",
+        "first_launch": "2019-11-02 05:06:49",
+        "total_flight_time_min": 462,
+        "drone_type": {
+            "id": 24,
+            "model_name": "Talon v5",
+            "brand": "X-UAV",
+            "model_year": "2019",
+            "endurance_min": "58",
+            "sl_no": "241-12-2839",
+            "type": "fixed_wing"
+        },
+        "pilot": {
+            "id": 4309,
+            "name": "Jiya Sangha",
+            "address": "95/562, Swamy, Khammam 812656",
+            "phone": "+915682457906",
+            "experience": 8,
+            "skill": 4,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Heer",
+        "reg_id": 11,
+        "location": {
+            "latitude": 26.039868810883593,
+            "longitude": 87.29817044160734
+        },
+        "last_seen": "2021-06-06 06:03:58",
+        "first_launch": "2021-04-30 01:55:49",
+        "total_flight_time_min": 402,
+        "drone_type": {
+            "id": 9,
+            "model_name": "DJI Phantom",
+            "brand": "DJI",
+            "model_year": "2020",
+            "endurance_min": "23",
+            "sl_no": "935-55-4918",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 3020,
+            "name": "Alia Tiwari",
+            "address": "H.No. 84, Gour Street\nGuntur-136268",
+            "phone": "1930737848",
+            "experience": 8,
+            "skill": 1,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Ritvik",
+        "reg_id": 12,
+        "location": {
+            "latitude": 29.768334774988297,
+            "longitude": 78.19762147071323
+        },
+        "last_seen": "2021-06-10 11:09:26",
+        "first_launch": "2021-09-01 15:01:37",
+        "total_flight_time_min": 906,
+        "drone_type": {
+            "id": 26,
+            "model_name": "Anaconda",
+            "brand": "RMRC",
+            "model_year": "2012",
+            "endurance_min": "120",
+            "sl_no": "372-21-5803",
+            "type": "fixed_wing"
+        },
+        "pilot": {
+            "id": 2488,
+            "name": "Badal Bahl",
+            "address": "80, Rastogi Path\nDehradun-142087",
+            "phone": "00369796663",
+            "experience": 3,
+            "skill": 2,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Faiyaz",
+        "reg_id": 13,
+        "location": {
+            "latitude": 22.547560718270653,
+            "longitude": 83.61183093966464
+        },
+        "last_seen": "2021-06-30 17:27:15",
+        "first_launch": "2017-01-24 23:05:34",
+        "total_flight_time_min": 59,
+        "drone_type": {
+            "id": 20,
+            "model_name": "Talon v1",
+            "brand": "X-UAV",
+            "model_year": "2019",
+            "endurance_min": "34",
+            "sl_no": "467-04-2922",
+            "type": "fixed_wing"
+        },
+        "pilot": {
+            "id": 7483,
+            "name": "Jhanvi Bali",
+            "address": "67/415, Dewan Marg\nGulbarga 130136",
+            "phone": "7327005930",
+            "experience": 3,
+            "skill": 3,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Amira",
+        "reg_id": 14,
+        "location": {
+            "latitude": 23.49857622976632,
+            "longitude": 85.19572376527971
+        },
+        "last_seen": "2021-03-09 06:55:22",
+        "first_launch": "2017-08-23 02:38:32",
+        "total_flight_time_min": 935,
+        "drone_type": {
+            "id": 6,
+            "model_name": "DJI Mavic v3",
+            "brand": "DJI",
+            "model_year": "2018",
+            "endurance_min": "23",
+            "sl_no": "282-62-3373",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 1135,
+            "name": "Eva Sharma",
+            "address": "H.No. 46\nApte Road, Bardhaman-930631",
+            "phone": "04058194483",
+            "experience": 9,
+            "skill": 4,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Vidur",
+        "reg_id": 15,
+        "location": {
+            "latitude": 17.518613092640543,
+            "longitude": 75.51652126140286
+        },
+        "last_seen": "2021-05-03 17:28:49",
+        "first_launch": "2020-04-11 09:56:21",
+        "total_flight_time_min": 425,
+        "drone_type": {
+            "id": 7,
+            "model_name": "DJI Mavic pro",
+            "brand": "DJI",
+            "model_year": "2018",
+            "endurance_min": "23",
+            "sl_no": "085-93-1015",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 5978,
+            "name": "Saanvi Swamy",
+            "address": "45\nHans Nagar, Chennai-917281",
+            "phone": "07442635860",
+            "experience": 5,
+            "skill": 2,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Rohan",
+        "reg_id": 16,
+        "location": {
+            "latitude": 15.446733345062377,
+            "longitude": 78.13307226226965
+        },
+        "last_seen": "2021-06-26 23:51:40",
+        "first_launch": "2021-02-14 00:38:18",
+        "total_flight_time_min": 551,
+        "drone_type": {
+            "id": 11,
+            "model_name": "DJI Phantom v2",
+            "brand": "DJI",
+            "model_year": "2018",
+            "endurance_min": "23",
+            "sl_no": "397-71-0844",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 5570,
+            "name": "Romil Kohli",
+            "address": "H.No. 305, Bhagat Circle\nYamunanagar-750350",
+            "phone": "+917415860015",
+            "experience": 2,
+            "skill": 5,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Lakshit",
+        "reg_id": 17,
+        "location": {
+            "latitude": 16.636024792138166,
+            "longitude": 78.25810567232926
+        },
+        "last_seen": "2021-07-18 19:43:03",
+        "first_launch": "2017-05-01 01:24:07",
+        "total_flight_time_min": 445,
+        "drone_type": {
+            "id": 35,
+            "model_name": "Air 2 pro",
+            "brand": "DJI",
+            "model_year": "2021",
+            "endurance_min": "12",
+            "sl_no": "943-76-0565",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 4904,
+            "name": "Khushi Upadhyay",
+            "address": "217\nChauhan Zila\nLudhiana-260309",
+            "phone": "+911423467019",
+            "experience": 10,
+            "skill": 2,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Amani",
+        "reg_id": 18,
+        "location": {
+            "latitude": 21.226911143209055,
+            "longitude": 79.23413402618064
+        },
+        "last_seen": "2021-10-26 10:46:06",
+        "first_launch": "2020-01-08 18:43:59",
+        "total_flight_time_min": 1,
+        "drone_type": {
+            "id": 7,
+            "model_name": "DJI Mavic pro",
+            "brand": "DJI",
+            "model_year": "2018",
+            "endurance_min": "23",
+            "sl_no": "085-93-1015",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 9209,
+            "name": "Reyansh Samra",
+            "address": "14/17, Sama\nAmbattur 197213",
+            "phone": "2752996498",
+            "experience": 8,
+            "skill": 4,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Taimur",
+        "reg_id": 19,
+        "location": {
+            "latitude": 24.355197331947068,
+            "longitude": 72.66495674768163
+        },
+        "last_seen": "2021-05-11 23:40:21",
+        "first_launch": "2019-09-11 19:41:09",
+        "total_flight_time_min": 161,
+        "drone_type": {
+            "id": 20,
+            "model_name": "Talon v1",
+            "brand": "X-UAV",
+            "model_year": "2019",
+            "endurance_min": "34",
+            "sl_no": "467-04-2922",
+            "type": "fixed_wing"
+        },
+        "pilot": {
+            "id": 6858,
+            "name": "Anay Krishnamurthy",
+            "address": "552\nSandal Ganj, Etawah-676592",
+            "phone": "7705227420",
+            "experience": 6,
+            "skill": 5,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Ivan",
+        "reg_id": 20,
+        "location": {
+            "latitude": 20.877138903645452,
+            "longitude": 76.21867136825256
+        },
+        "last_seen": "2021-04-10 20:48:46",
+        "first_launch": "2019-12-08 12:52:25",
+        "total_flight_time_min": 827,
+        "drone_type": {
+            "id": 19,
+            "model_name": "DJI Mavic pro 3",
+            "brand": "DJI",
+            "model_year": "2020",
+            "endurance_min": "44",
+            "sl_no": "253-34-4019",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 6933,
+            "name": "Hunar Krishnamurthy",
+            "address": "03/90, Kuruvilla Chowk\nHubli\u2013Dharwad 511755",
+            "phone": "+915598604826",
+            "experience": 9,
+            "skill": 2,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Dishani",
+        "reg_id": 21,
+        "location": {
+            "latitude": 13.677335431221827,
+            "longitude": 78.63215908675618
+        },
+        "last_seen": "2021-06-02 13:47:01",
+        "first_launch": "2020-04-13 05:13:52",
+        "total_flight_time_min": 861,
+        "drone_type": {
+            "id": 8,
+            "model_name": "DJI Plus",
+            "brand": "DJI",
+            "model_year": "2019",
+            "endurance_min": "24",
+            "sl_no": "867-21-7094",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 7226,
+            "name": "Nayantara Dalal",
+            "address": "H.No. 902\nMammen\nBallia 510785",
+            "phone": "09987899443",
+            "experience": 1,
+            "skill": 4,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Saksham",
+        "reg_id": 22,
+        "location": {
+            "latitude": 23.778752406298754,
+            "longitude": 79.19859646831192
+        },
+        "last_seen": "2021-02-08 20:05:07",
+        "first_launch": "2018-09-04 16:07:11",
+        "total_flight_time_min": 459,
+        "drone_type": {
+            "id": 14,
+            "model_name": "DJI Phantom Pro v1",
+            "brand": "DJI",
+            "model_year": "2020",
+            "endurance_min": "23",
+            "sl_no": "456-03-4566",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 3790,
+            "name": "Dhanuk Kota",
+            "address": "88, Sawhney Nagar, Ongole 125137",
+            "phone": "+910694047335",
+            "experience": 6,
+            "skill": 2,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Anaya",
+        "reg_id": 23,
+        "location": {
+            "latitude": 22.905930926860506,
+            "longitude": 71.41573097516695
+        },
+        "last_seen": "2021-04-28 08:22:33",
+        "first_launch": "2020-04-25 04:33:26",
+        "total_flight_time_min": 257,
+        "drone_type": {
+            "id": 23,
+            "model_name": "Talon v4",
+            "brand": "X-UAV",
+            "model_year": "2018",
+            "endurance_min": "32",
+            "sl_no": "543-76-7761",
+            "type": "fixed_wing"
+        },
+        "pilot": {
+            "id": 3794,
+            "name": "Yashvi Sarma",
+            "address": "22/90, Bhavsar Path\nNavi Mumbai 129921",
+            "phone": "+913248870874",
+            "experience": 4,
+            "skill": 2,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Veer",
+        "reg_id": 24,
+        "location": {
+            "latitude": 17.430378394058692,
+            "longitude": 82.50700767268103
+        },
+        "last_seen": "2021-02-16 20:47:41",
+        "first_launch": "2021-09-25 05:47:38",
+        "total_flight_time_min": 185,
+        "drone_type": {
+            "id": 1,
+            "model_name": "Name",
+            "brand": "Brand",
+            "model_year": "Model Year",
+            "endurance_min": "Flight Time",
+            "sl_no": "382-84-8114",
+            "type": "type"
+        },
+        "pilot": {
+            "id": 8800,
+            "name": "Advik Hayer",
+            "address": "56/779, Doctor Zila\nJalandhar 644990",
+            "phone": "+918949437213",
+            "experience": 5,
+            "skill": 3,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Aarna",
+        "reg_id": 25,
+        "location": {
+            "latitude": 14.771822595805766,
+            "longitude": 79.50548866132117
+        },
+        "last_seen": "2021-09-27 13:01:11",
+        "first_launch": "2020-05-08 21:19:48",
+        "total_flight_time_min": 57,
+        "drone_type": {
+            "id": 4,
+            "model_name": "DJI Mavic v1",
+            "brand": "DJI",
+            "model_year": "2020",
+            "endurance_min": "23",
+            "sl_no": "728-31-2342",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 3841,
+            "name": "Ritvik Doctor",
+            "address": "56/51, Chatterjee Zila\nKhora -052744",
+            "phone": "00258939507",
+            "experience": 6,
+            "skill": 3,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Siya",
+        "reg_id": 26,
+        "location": {
+            "latitude": 23.13480284158205,
+            "longitude": 70.87223226957896
+        },
+        "last_seen": "2021-03-21 09:53:47",
+        "first_launch": "2018-09-14 08:14:05",
+        "total_flight_time_min": 62,
+        "drone_type": {
+            "id": 12,
+            "model_name": "DJI Phantom v3",
+            "brand": "DJI",
+            "model_year": "2018",
+            "endurance_min": "23",
+            "sl_no": "910-50-4478",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 7134,
+            "name": "Jayan Sant",
+            "address": "H.No. 390\nDutta Path\nBelgaum-499936",
+            "phone": "02709999178",
+            "experience": 9,
+            "skill": 5,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Zeeshan",
+        "reg_id": 27,
+        "location": {
+            "latitude": 27.11569953222361,
+            "longitude": 73.29020802991258
+        },
+        "last_seen": "2021-03-20 01:45:28",
+        "first_launch": "2020-05-13 02:58:08",
+        "total_flight_time_min": 294,
+        "drone_type": {
+            "id": 15,
+            "model_name": "DJI Phantom Pro v2",
+            "brand": "DJI",
+            "model_year": "2019",
+            "endurance_min": "23",
+            "sl_no": "931-48-1011",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 9293,
+            "name": "Jayan Guha",
+            "address": "033\nChaudhuri Marg, Dindigul-630621",
+            "phone": "9412314750",
+            "experience": 10,
+            "skill": 3,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Onkar",
+        "reg_id": 28,
+        "location": {
+            "latitude": 32.72204390306611,
+            "longitude": 77.50216179299221
+        },
+        "last_seen": "2021-11-06 00:51:29",
+        "first_launch": "2017-07-30 12:42:21",
+        "total_flight_time_min": 164,
+        "drone_type": {
+            "id": 8,
+            "model_name": "DJI Plus",
+            "brand": "DJI",
+            "model_year": "2019",
+            "endurance_min": "24",
+            "sl_no": "867-21-7094",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 2851,
+            "name": "Sumer Wable",
+            "address": "53/43, Chad Marg\nWarangal 214217",
+            "phone": "+916502692847",
+            "experience": 10,
+            "skill": 5,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Sara",
+        "reg_id": 29,
+        "location": {
+            "latitude": 24.35286021739833,
+            "longitude": 73.69004072459816
+        },
+        "last_seen": "2021-06-11 21:55:28",
+        "first_launch": "2019-06-29 00:07:28",
+        "total_flight_time_min": 436,
+        "drone_type": {
+            "id": 37,
+            "model_name": "Mini pro",
+            "brand": "DJI",
+            "model_year": "2016",
+            "endurance_min": "24",
+            "sl_no": "082-23-8151",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 3976,
+            "name": "Yuvaan Gera",
+            "address": "976\nDeshmukh Nagar\nPhusro 700578",
+            "phone": "04821910043",
+            "experience": 3,
+            "skill": 4,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Priyansh",
+        "reg_id": 30,
+        "location": {
+            "latitude": 32.05003061667831,
+            "longitude": 75.73945551020797
+        },
+        "last_seen": "2021-01-31 18:29:21",
+        "first_launch": "2018-07-13 20:09:28",
+        "total_flight_time_min": 879,
+        "drone_type": {
+            "id": 25,
+            "model_name": "Talon v6",
+            "brand": "X-UAV",
+            "model_year": "2020",
+            "endurance_min": "64",
+            "sl_no": "794-20-8005",
+            "type": "fixed_wing"
+        },
+        "pilot": {
+            "id": 5076,
+            "name": "Jayan Kari",
+            "address": "288, Sharaf Road\nSambhal-891898",
+            "phone": "07128401778",
+            "experience": 10,
+            "skill": 2,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Priyansh",
+        "reg_id": 31,
+        "location": {
+            "latitude": 9.576760594572086,
+            "longitude": 76.78740970033304
+        },
+        "last_seen": "2021-07-12 04:07:39",
+        "first_launch": "2019-04-06 08:03:44",
+        "total_flight_time_min": 693,
+        "drone_type": {
+            "id": 4,
+            "model_name": "DJI Mavic v1",
+            "brand": "DJI",
+            "model_year": "2020",
+            "endurance_min": "23",
+            "sl_no": "728-31-2342",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 9909,
+            "name": "Lagan Saxena",
+            "address": "H.No. 55\nMajumdar Zila\nRaiganj-047968",
+            "phone": "4945496611",
+            "experience": 8,
+            "skill": 5,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Lavanya",
+        "reg_id": 32,
+        "location": {
+            "latitude": 19.1889176048651,
+            "longitude": 81.77343620514183
+        },
+        "last_seen": "2021-02-03 18:40:49",
+        "first_launch": "2018-03-25 06:29:45",
+        "total_flight_time_min": 767,
+        "drone_type": {
+            "id": 6,
+            "model_name": "DJI Mavic v3",
+            "brand": "DJI",
+            "model_year": "2018",
+            "endurance_min": "23",
+            "sl_no": "282-62-3373",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 4572,
+            "name": "Emir Setty",
+            "address": "79/00\nTalwar\nSaharsa-624557",
+            "phone": "+918569501570",
+            "experience": 9,
+            "skill": 5,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Bhavin",
+        "reg_id": 33,
+        "location": {
+            "latitude": 25.33225014949722,
+            "longitude": 91.7647471087916
+        },
+        "last_seen": "2021-07-14 14:53:35",
+        "first_launch": "2021-10-15 11:10:15",
+        "total_flight_time_min": 173,
+        "drone_type": {
+            "id": 11,
+            "model_name": "DJI Phantom v2",
+            "brand": "DJI",
+            "model_year": "2018",
+            "endurance_min": "23",
+            "sl_no": "397-71-0844",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 8236,
+            "name": "Madhav Saraf",
+            "address": "H.No. 95, Ahuja Path, Visakhapatnam-138539",
+            "phone": "06604057417",
+            "experience": 1,
+            "skill": 1,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Neelofar",
+        "reg_id": 34,
+        "location": {
+            "latitude": 17.765937003294624,
+            "longitude": 77.94779804853196
+        },
+        "last_seen": "2021-09-16 16:04:36",
+        "first_launch": "2018-10-07 19:44:25",
+        "total_flight_time_min": 918,
+        "drone_type": {
+            "id": 11,
+            "model_name": "DJI Phantom v2",
+            "brand": "DJI",
+            "model_year": "2018",
+            "endurance_min": "23",
+            "sl_no": "397-71-0844",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 5421,
+            "name": "Sana Barad",
+            "address": "832, Mani Circle, Mangalore-455173",
+            "phone": "09862446892",
+            "experience": 5,
+            "skill": 1,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Ishita",
+        "reg_id": 35,
+        "location": {
+            "latitude": 24.19999481158897,
+            "longitude": 79.70656358860535
+        },
+        "last_seen": "2021-01-04 16:18:21",
+        "first_launch": "2020-06-04 10:28:01",
+        "total_flight_time_min": 362,
+        "drone_type": {
+            "id": 31,
+            "model_name": "Mini",
+            "brand": "DJI",
+            "model_year": "2014",
+            "endurance_min": "45",
+            "sl_no": "325-72-7505",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 9698,
+            "name": "Ela Rama",
+            "address": "946, Sethi Nagar\nKarawal Nagar 648906",
+            "phone": "06163360140",
+            "experience": 5,
+            "skill": 4,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Miraan",
+        "reg_id": 36,
+        "location": {
+            "latitude": 13.52476414248779,
+            "longitude": 75.46851972150945
+        },
+        "last_seen": "2021-05-27 10:33:41",
+        "first_launch": "2018-11-28 23:34:16",
+        "total_flight_time_min": 793,
+        "drone_type": {
+            "id": 22,
+            "model_name": "Talon v3",
+            "brand": "X-UAV",
+            "model_year": "2017",
+            "endurance_min": "62",
+            "sl_no": "729-14-2999",
+            "type": "fixed_wing"
+        },
+        "pilot": {
+            "id": 3310,
+            "name": "Rohan Kota",
+            "address": "H.No. 91\nLad Circle, Allahabad 423606",
+            "phone": "8169643054",
+            "experience": 6,
+            "skill": 5,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Arhaan",
+        "reg_id": 37,
+        "location": {
+            "latitude": 25.018973302114937,
+            "longitude": 86.48068732657575
+        },
+        "last_seen": "2021-02-22 19:23:20",
+        "first_launch": "2018-08-13 21:57:43",
+        "total_flight_time_min": 546,
+        "drone_type": {
+            "id": 4,
+            "model_name": "DJI Mavic v1",
+            "brand": "DJI",
+            "model_year": "2020",
+            "endurance_min": "23",
+            "sl_no": "728-31-2342",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 5520,
+            "name": "Lavanya Bala",
+            "address": "411, Goel Nagar, Thiruvananthapuram 078426",
+            "phone": "07998030841",
+            "experience": 9,
+            "skill": 5,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Shamik",
+        "reg_id": 38,
+        "location": {
+            "latitude": 27.559242377440793,
+            "longitude": 82.37175554727006
+        },
+        "last_seen": "2021-08-29 13:17:50",
+        "first_launch": "2020-11-18 02:40:25",
+        "total_flight_time_min": 654,
+        "drone_type": {
+            "id": 20,
+            "model_name": "Talon v1",
+            "brand": "X-UAV",
+            "model_year": "2019",
+            "endurance_min": "34",
+            "sl_no": "467-04-2922",
+            "type": "fixed_wing"
+        },
+        "pilot": {
+            "id": 7915,
+            "name": "Farhan Batra",
+            "address": "H.No. 865\nShankar Street, Coimbatore 753612",
+            "phone": "01955318753",
+            "experience": 8,
+            "skill": 3,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Indrans",
+        "reg_id": 39,
+        "location": {
+            "latitude": 22.696357198483707,
+            "longitude": 69.03374242097327
+        },
+        "last_seen": "2021-06-24 13:29:13",
+        "first_launch": "2017-12-09 12:51:23",
+        "total_flight_time_min": 945,
+        "drone_type": {
+            "id": 8,
+            "model_name": "DJI Plus",
+            "brand": "DJI",
+            "model_year": "2019",
+            "endurance_min": "24",
+            "sl_no": "867-21-7094",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 7404,
+            "name": "Riaan Tailor",
+            "address": "709\nSengupta Circle\nMira-Bhayandar 724873",
+            "phone": "05526227415",
+            "experience": 8,
+            "skill": 4,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Piya",
+        "reg_id": 40,
+        "location": {
+            "latitude": 15.903228379934868,
+            "longitude": 75.48440202888945
+        },
+        "last_seen": "2021-05-06 23:46:13",
+        "first_launch": "2020-04-02 00:03:11",
+        "total_flight_time_min": 257,
+        "drone_type": {
+            "id": 26,
+            "model_name": "Anaconda",
+            "brand": "RMRC",
+            "model_year": "2012",
+            "endurance_min": "120",
+            "sl_no": "372-21-5803",
+            "type": "fixed_wing"
+        },
+        "pilot": {
+            "id": 4458,
+            "name": "Kanav Koshy",
+            "address": "95/142\nDin Nagar\nAvadi-972372",
+            "phone": "9175389463",
+            "experience": 9,
+            "skill": 2,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Aaryahi",
+        "reg_id": 41,
+        "location": {
+            "latitude": 26.273342856411936,
+            "longitude": 93.84295102956725
+        },
+        "last_seen": "2021-11-06 11:06:02",
+        "first_launch": "2020-07-08 12:16:42",
+        "total_flight_time_min": 581,
+        "drone_type": {
+            "id": 35,
+            "model_name": "Air 2 pro",
+            "brand": "DJI",
+            "model_year": "2021",
+            "endurance_min": "12",
+            "sl_no": "943-76-0565",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 6089,
+            "name": "Shalv Halder",
+            "address": "H.No. 266\nLalla Circle\nDarbhanga-102641",
+            "phone": "1581153202",
+            "experience": 2,
+            "skill": 2,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Zoya",
+        "reg_id": 42,
+        "location": {
+            "latitude": 27.962003555309426,
+            "longitude": 77.74061457304424
+        },
+        "last_seen": "2021-05-24 04:52:19",
+        "first_launch": "2017-05-23 04:15:50",
+        "total_flight_time_min": 381,
+        "drone_type": {
+            "id": 33,
+            "model_name": "Air",
+            "brand": "DJI",
+            "model_year": "2019",
+            "endurance_min": "54",
+            "sl_no": "785-36-6575",
+            "type": "quad"
+        },
+        "pilot": {
+            "id": 7339,
+            "name": "Mannat Edwin",
+            "address": "21/65\nGanesh Ganj\nJalgaon-062533",
+            "phone": "+913390996286",
+            "experience": 4,
+            "skill": 1,
+            "country": "India"
+        }
+    },
+    {
+        "drone_name": "Keya",
+        "reg_id": 43,
+        "location": {
+            "latitude": 22.754359430551382,
+            "longitude": 73.62717613813696
+        },
+        "last_seen": "2021-07-15 09:54:52",
+        "first_launch": "2020-05-04 12:54:18",
+        "total_flight_time_min": 873,
+        "drone_type": {
+            "id": 41,
+            "model_name": "Swinf pro 2",
+            "brand": "Parrot",
+            "model_year": "2020",
+            "endurance_min": "120",
+            "sl_no": "784-19-1278",
+            "type": "vtol"
+        },
+        "pilot": {
+            "id": 8785,
+            "name": "Lakshit Ramaswamy",
+            "address": "41\nLata Road\nShimoga 242117",
+            "phone": "4274311497",
+            "experience": 4,
+            "skill": 1,
+            "country": "India"
+        }
+    }
+]

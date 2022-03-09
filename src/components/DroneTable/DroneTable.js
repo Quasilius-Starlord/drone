@@ -23,7 +23,8 @@ export default function DroneTable(props) {
     };
 
     let rowOfItems=null;
-    if(!(props.drones.current===null || props.drones.current===[])){
+    console.log(props.drones.current)
+    if(props.drones.current!==[]){
         rowOfItems=props.drones.current.map((e, i)=>{
             if (e.drone_name.toLowerCase().includes(nameFilter.toLowerCase()) === true && e.drone_type.model_name.toLowerCase().includes(brandFilter.toLowerCase()) === true) {
                 return { drone: e, ogIndex: i };
@@ -47,52 +48,48 @@ export default function DroneTable(props) {
         console.log(e);
         setCurrentPage(e.selected)
     };
-    if (props.drones.current) {
-        if (props.drones.current.length === 0)
-            return null;
-        return (
-            <Auxil>
-                <div style={{ display: 'flex', flexDirection: 'row',justifyContent:'space-evenly', alignItems: 'center',flexWrap:'wrap' }}>
-                    <input className='mb-3' type={'text'} placeholder='Drone Name' value={nameFilter} onChange={e => setNameFilter(e.target.value)} />
-                    <input className='mb-3' type={'text'} placeholder='Drone Brand' value={brandFilter} onChange={e => setBrandFilter(e.target.value)} />
-                </div>
-                <div style={{ maxHeight: '20rem', overflowY: 'scroll', scrollbarWidth: 'none' }}>
-                    <Table variant="dark" style={{ height: '100%' }}>
-                        <thead>
-                            <tr>
-                                <th>ID</th>
-                                <th>Name</th>
-                                <th>Brand</th>
-                                <th>Pilot</th>
-                                <th>Delete</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {droneDataSerializer()}
-                        </tbody>
-                    </Table>
-                </div>
-                <ReactPaginate 
-                    pageRangeDisplayed={2}
-                    activeClassName={'active'}
-                    breakLinkClassName={'page-link'}
-                    pageLinkClassName={'page-link'}
-                    breakLabel={'...'}
-                    pageClassName={'page-item'}
-                    previousLinkClassName={'page-link'}
-                    nextClassName={'page-item'}
-                    nextLinkClassName={'page-link'}
-                    breakClassName={'page-item'}
-                    previousClassName={'page-item'}
-                    containerClassName='pagination'
-                    pageCount={Math.ceil(oglength.current/props.itemsPerPage)}
-                    nextLabel={'next'}
-                    previousLabel={'previous'}
-                    onPageChange={pageChange}
-                />
-            </Auxil>
-        )
-    } else {
+    if (props.drones.current.length === 0)
         return null;
-    }
+    return (
+        <Auxil>
+            <div style={{ display: 'flex', flexDirection: 'row',justifyContent:'space-evenly', alignItems: 'center',flexWrap:'wrap' }}>
+                <input className='mb-3' type={'text'} placeholder='Drone Name' value={nameFilter} onChange={e => setNameFilter(e.target.value)} />
+                <input className='mb-3' type={'text'} placeholder='Drone Brand' value={brandFilter} onChange={e => setBrandFilter(e.target.value)} />
+            </div>
+            <div style={{ maxHeight: '20rem', overflowY: 'scroll', scrollbarWidth: 'none' }}>
+                <Table variant="dark" style={{ height: '100%' }}>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Brand</th>
+                            <th>Pilot</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {droneDataSerializer()}
+                    </tbody>
+                </Table>
+            </div>
+            <ReactPaginate 
+                pageRangeDisplayed={2}
+                activeClassName={'active'}
+                breakLinkClassName={'page-link'}
+                pageLinkClassName={'page-link'}
+                breakLabel={'...'}
+                pageClassName={'page-item'}
+                previousLinkClassName={'page-link'}
+                nextClassName={'page-item'}
+                nextLinkClassName={'page-link'}
+                breakClassName={'page-item'}
+                previousClassName={'page-item'}
+                containerClassName='pagination'
+                pageCount={Math.ceil(oglength.current/props.itemsPerPage)}
+                nextLabel={'next'}
+                previousLabel={'previous'}
+                onPageChange={pageChange}
+            />
+        </Auxil>
+    )
 }

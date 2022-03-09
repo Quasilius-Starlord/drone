@@ -2,17 +2,18 @@ import axios from "axios";
 import React, { useEffect, useRef, useState } from "react";
 import { Button,/* ProgressBar*/ } from "react-bootstrap";
 import DroneTable from "../DroneTable/DroneTable";
-
-import Map from '../Map/Map';
-import MapService, { MAPBOX_ACCESS_TOKEN } from '../Map/MapService';
 import Overlay from "../Overlay/Overlay";
 import UploadOverlay from "../UploadOverlay/UploadOverlay";
 import { URL } from './../../assets/backend/server'
 
-export default function Layout() {
+import { Map, MAPBOX_ACCESS_TOKEN } from "../Map/Map";
+
+export default function Layout(props) {
     console.log(URL)
     const mapService = useRef(null);
-    const droneJsonData = useRef(null);
+    const droneJsonData = useRef([]);
+    const boundedBox = useRef(null);
+    const dronesLocations = useRef([]);
     
 
     const newdata = useRef([
@@ -281,6 +282,7 @@ export default function Layout() {
     let [invisibility, setInvisibility] = useState('Hide');
     let [progressBarVisibility, setProgressBarVisibility] = useState('Hide');
     let [uploadedPercent, changeUploadedPercent] = useState(0);
+    let [ renderforcecounter, setRenderforcecounter ] = useState(0);
 
     let overlayMonitor = e => {
         if (!invisibility) {
@@ -324,36 +326,39 @@ export default function Layout() {
             return;
         }
         //mapservice set to hook which is map object
-        const mapObj = new MapService();
-        mapObj.initMap();
-        mapService.current = mapObj;
         console.log('has been rendered');
     }, []);
 
     // //function defination of the bounded box drawn by user
-    function getBoundingBox() {
-        const bbox = mapService.current.getdrawnBoundingBox();
-        if (!bbox) {
+    function getBoundingBoxDrones() {
+        if (!boundedBox.current) {
             return;
         }
-        console.log(bbox.geometry.coordinates[0]);
+        console.log(boundedBox.current)
+        console.log(boundedBox.current.geometry.coordinates[0]);
+        // return;
         fetch(`${URL}/locationfetch/`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ 'polygon': bbox.geometry.coordinates[0] })
+            body: JSON.stringify({ 'polygon': boundedBox.current.geometry.coordinates[0] })
         }).then(res => {
             return res.json()
         }).then(res => {
-            console.log(JSON.parse(res).data)
-            alert(JSON.parse(res).data)
+            const data=JSON.parse(res).data
+            console.log(data)
+            dronesLocations.current=data.map(e => [e.latitude, e.longitude]);;
+            console.log(dronesLocations.current)
+            setRenderforcecounter(renderforcecounter+1);
         })
     }
+
     console.log(URL)
+    
     return (
         <div className='layout'>
-            <Overlay droneJsonData={droneJsonData} invisibility={invisibility} setInvisibility={overlayMonitor} mapService={mapService} />
+            <Overlay dronesLocations={dronesLocations} droneJsonData={droneJsonData} invisibility={invisibility} setInvisibility={overlayMonitor} />
             <UploadOverlay
                 visibility={progressBarVisibility}
                 setProgressBarVisibility={ProgressBarVisibilityMonitor}
@@ -373,7 +378,7 @@ export default function Layout() {
 
                 
                 <div style={{display:"flex",justifyContent:'center'}}>
-                    <Button variant="info" onClick={getBoundingBox}>
+                    <Button variant="info" onClick={getBoundingBoxDrones}>
                         Get drone in bounded Box
                     </Button>
                 </div>
@@ -383,7 +388,7 @@ export default function Layout() {
             </div>
 
             <div className='layout__map_cont'>
-                {MAPBOX_ACCESS_TOKEN && <Map drones={droneJsonData} />}
+                {MAPBOX_ACCESS_TOKEN && <Map dronesLocations={dronesLocations} boundedBox={boundedBox} setRenderforcecounter={setRenderforcecounter} />}
             </div>
 
         </div>

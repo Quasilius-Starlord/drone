@@ -1,7 +1,9 @@
 import { Component, useEffect } from 'react';
 
-import mapboxgl, { Map } from 'mapbox-gl';
-import MapboxDraw from "@mapbox/mapbox-gl-draw";
+// import mapboxgl, { Map } from 'mapbox-gl';
+// import MapboxDraw from "@mapbox/mapbox-gl-draw";
+import ReactMapboxGl from 'react-map-gl';
+import mapboxGlDraw from '@mapbox/mapbox-gl-draw';
 
 import MarkerImage from '../../assets/images/marker.png';
 import data from './../../assets/data/largetestdataforupload.json';
@@ -19,7 +21,10 @@ export default class MapService extends Component {
 
     constructor(props) {
         super(props);
-        mapboxgl.accessToken = MAPBOX_ACCESS_TOKEN
+        // this.mapbox=ReactMapboxGl({
+        //     accessToken:MAPBOX_ACCESS_TOKEN
+        // })
+
 
         if (!Map.INSTANCE) {
             Map.INSTANCE = this;
@@ -30,7 +35,7 @@ export default class MapService extends Component {
 
     static INSTANCE = null;
     static MAP_CONTAINER = 'project_map';
-
+    mapbox = null;
     map = null;
     drawTool = null;
 
@@ -60,9 +65,9 @@ export default class MapService extends Component {
         })
 
         this.map.addControl(
-            new mapboxgl.NavigationControl({
-                showCompass: false,
-            }),
+            // new mapboxgl.NavigationControl({
+            //     showCompass: false,
+            // }),
         );
 
         this.map.dragRotate.disable();
@@ -86,13 +91,7 @@ export default class MapService extends Component {
         this.initDrawTool();
 
         this.map.on('load',()=>{
-            // console.log('sty;le event loaded');
             const coordinates = [];
-            // for (let i = 0; i < 10; i++) {
-            //     coordinates.push([data[i].location.latitude,data[i].location.longitude])
-            //     console.log(data[i].location)
-            // }
-            // coordinates.push([0,0])
             this.addPoints(coordinates);
         })
     }
@@ -101,14 +100,14 @@ export default class MapService extends Component {
      * Private method to add drawing tool on the map
      */
     initDrawTool() {
-        this.drawTool = new MapboxDraw({
-            userProperties: true,
-            displayControlsDefault: false,
-            controls: {
-                polygon: true,
-                trash: true,
-            },
-        });
+        // this.drawTool = new MapboxDraw({
+        //     userProperties: true,
+        //     displayControlsDefault: false,
+        //     controls: {
+        //         polygon: true,
+        //         trash: true,
+        //     },
+        // });
         this.map.addControl(this.drawTool);
 
         // Makes sure that user can only draw one annotation

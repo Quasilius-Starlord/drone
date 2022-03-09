@@ -44,6 +44,7 @@ export default function Overlay(props){
                         let jsonmapdata=JSON.parse(e.target.result);
                         changeSelectedFile(jsonmapdata);
                         props.droneJsonData.current=jsonmapdata;
+                        props.dronesLocations.current=jsonmapdata.map(e=>[e.location.latitude, e.location.longitude])
                         props.setInvisibility(triggerhidden);
                     }
                     e.target.value='';
